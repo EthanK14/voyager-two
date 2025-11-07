@@ -1,0 +1,51 @@
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    margin: auto;
+    border: black;
+}
+
+#profile-desc {
+    text-align: center;
+}
+
+#art{
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+
+  display: flex;              /* Make the <ul> flex */
+  justify-content: center;    /* Center items horizontally */
+  align-items: center;        /* Center vertically */
+  background-color: #333333;
+}
+
+ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ul li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}

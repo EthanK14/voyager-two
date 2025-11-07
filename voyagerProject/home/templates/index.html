@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voyager-Two</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+</head>
+<body>
+    <header>
+        
+        <h1 id="title">Voyager Two's Journey</h1>
+
+        <div id="profile-desc">
+            <p>Voyage to each stop along Voyager Two's Journey</p>
+        </div>
+
+        
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'jupiter' %}">Jupiter</a></li>
+            <li><a href="{% url 'saturn' %}">Saturn</a></li>
+            <li><a href="{% url 'uranus' %}">Uranus</a></li>
+            <li><a href="{% url 'neptune' %}">Neptune</a></li>
+            <li><a href="{% url 'interstellar' %}">Interstellar</a></li>
+            
+        </ul>
+    
+    </header>
+
+    <!-- block content -->
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+
+
+    <footer>
+        <p>Voyager-Two.net</p>
+
+    </footer>
+
+</body>
+
+
+
+</html> 
